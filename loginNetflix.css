@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100vw;
+}
+
+.header {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 10%, transparent);
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.header-logo {
+  height: 45px;
+  width: 178px;
+  fill: #e50914;
+}
+
+.container {
+  background-image: url('netflixbg.jpeg');
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.transparent {
+  background-color: rgba(0, 0, 0, 0.315);
+  width: 100%;
+  height: 110vh;
+  padding-top: 75px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.login {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: rgb(245, 237, 237);
+  width: 450px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px;
+  padding: 60px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2px;
+  width: 100%;
+}
+
+.login-title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 28px;
+  margin: 0, 0, 10px;
+  width: 100%;
+}
+
+.email {
+  width: 100%;
+  border-radius: 4px;
+  height: 50px;
+  background-color: #333;
+  font-weight: 500;
+  margin-bottom: 28px;
+  outline: none;
+  border: none;
+  padding: 16px 20px 16px;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #e50914;
+  width: 100%;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 28px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 24px 0 12px;
+}
+
+.letter {
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 400;
+}
+.box {
+  background: #737373;
+}
+
+.boxhelp {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.netflix-new {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+.new {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.signup {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
