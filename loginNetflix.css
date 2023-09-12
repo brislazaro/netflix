@@ -8,8 +8,12 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+.container {
+  background-image: url('netflixbg.jpeg');
   width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -29,17 +33,9 @@ body {
   fill: #e50914;
 }
 
-.container {
-  background-image: url('netflixbg.jpeg');
-  width: 100vw;
-
-  display: flex;
-  flex-direction: column;
-}
-
 .transparent {
   background-color: rgba(0, 0, 0, 0.315);
-  width: 100%;
+  width: 100vw;
   height: 110vh;
   padding-top: 75px;
   display: flex;
@@ -136,5 +132,85 @@ body {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
-  margin-left: 2px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.signup:hover {
+  text-decoration: underline;
+}
+
+.legend {
+  width: 100%;
+}
+
+.google {
+  color: #8c8c8c;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.information {
+  color: #0071eb;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.information:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  width: 100%;
+  font-size: 1em;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #737373;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-left: 90px;
+  padding-right: 90px;
+  position: relative;
+}
+.number {
+  cursor: pointer;
+}
+
+.number:hover {
+  text-decoration: underline;
+}
+
+.footer-options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+.options_row {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.option {
+  cursor: pointer;
+  width: 25%;
+}
+
+.option:hover {
+  text-decoration: underline;
+}
+
+.idiom {
+  padding-right: 26px;
+  background-color: #000;
+  border: 1px solid #333;
+  color: #737373;
+  padding: 12px;
+}
+
+.imagen {
+  color: red;
 }
