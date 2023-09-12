@@ -9,7 +9,7 @@ html {
 }
 
 .container {
-  background-image: url('netflixbg.jpeg');
+  background-image: url("netflixbg.jpeg");
   width: 100vw;
   background-size: cover;
   display: flex;
@@ -216,5 +216,5 @@ html {
 }
 
 .randomClass {
-  background-color: blue;
+  background-color: green;
 }
